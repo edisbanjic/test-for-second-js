@@ -1,15 +1,19 @@
 // This function clear all the values
-function clearScreen() {
-    document.getElementById("result").value = "";
+function clearScreen(): void {
+    let result = document.getElementById("result") as HTMLInputElement;
+    result.value = "";
 }
 
 // This function display values
-function display(value) {
-    document.getElementById("result").value += value;
+function display(value: string): void {
+    let result = document.getElementById("result") as HTMLInputElement;
+    result.value += value;
 }
+
 // This function evaluates the expression and return result
-function calculate() {
-    var p = document.getElementById("result").value;
-    var q = eval(p);
-    document.getElementById("result").value = q;
+function calculate(): void {
+    let result = document.getElementById("result") as HTMLInputElement;
+    let p = result.value;
+    let q = eval(p); // Note: Using 'eval' is not safe and should be avoided for serious applications
+    result.value = q.toString();
 }
