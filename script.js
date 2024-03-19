@@ -4,9 +4,10 @@ function clearScreen() {
 }
 
 // This function display values
-function display(value) {
+function display(value: string) {
     document.getElementById("result").value += value;
 }
+
 // This function evaluates the expression and return result
 function calculate() {
     var p = document.getElementById("result").value;
