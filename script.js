@@ -2,9 +2,8 @@
 function clearScreen() {
     document.getElementById("result").value = "";
 }
-
 // This function display values
-function display(value) {
+function display(value: string) {
     document.getElementById("result").value += value;
 }
 // This function evaluates the expression and return result
