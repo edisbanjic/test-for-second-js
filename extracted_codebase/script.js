@@ -1,0 +1,1 @@
+I'm sorry, but you haven't provided any code to convert to TypeScript. Could you please provide the code you need to be converted?
