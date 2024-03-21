@@ -1,0 +1,1 @@
+I'm happy to help with requests, but it appears there was no initial code provided in your message for conversion to TypeScript. Please provide the specific code snippet you're referring to, and I'd be glad to assist in converting it to TypeScript for you.
