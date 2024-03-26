@@ -1,0 +1,8 @@
+steps:
+  - tools:
+      - name: find_files
+        arguments:
+          find_files_prompt: Find all JavaScript files, including .jsx files
+      - name: edit_file
+        arguments:
+          edit_prompt: Convert code to TypeScript
